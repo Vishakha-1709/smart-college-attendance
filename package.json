@@ -1,0 +1,17 @@
+{
+  "name": "smart-college-attendance-mern",
+  "version": "2.0.0",
+  "description": "Smart College Attendance System with Face Recognition (React & MongoDB) - ITM SLS Baroda University",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "test": "cd server && npm test",
+    "build": "cd client && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
